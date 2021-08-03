@@ -14,7 +14,7 @@
     "checkbox"
   ],
   "author": "Muhammad Rafeh Atique",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MuhammadRafeh/react-native-checkedbox/issues"
   },
