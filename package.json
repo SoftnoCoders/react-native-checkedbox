@@ -1,0 +1,26 @@
+{
+  "name": "react-native-checkedbox",
+  "version": "1.0.0",
+  "description": "React Native checkbox with all the features, flexibility & Very easy to Use.",
+  "main": "CheckBox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadRafeh/react-native-checkedbox.git"
+  },
+  "keywords": [
+    "checkbox"
+  ],
+  "author": "Muhammad Rafeh Atique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadRafeh/react-native-checkedbox/issues"
+  },
+  "peerDependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.2"
+  },
+  "homepage": "https://github.com/MuhammadRafeh/react-native-checkedbox#readme"
+}
