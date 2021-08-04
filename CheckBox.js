@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 
 const CheckBox = props => {
   return (
-      <TouchableOpacity style={styles.touchableOpacity} onPress={props?.onPress.bind(null, !props?.value)} disabled={props?.disabled}>
+      <TouchableOpacity style={styles.touchableOpacity} onPress={props?.onPress?.bind(null, !props?.value)} disabled={props?.disabled}>
         <View style={[styles.backLayer, {backgroundColor: props?.value ? 'rgba(42, 187, 155, 0.1)' : 'transparent'}]} />
         <View style={[styles.container, { backgroundColor: props?.value ? (props?.backgroundColor ? props?.backgroundColor : 'blue') : 'transparent', borderColor: props?.backgroundColor ? props?.backgroundColor : 'blue'  }]}>
-          { props?.value && ( <Image source={require('./assets/tick2.png')} style={[{tintColor: props?.tickColor ? props.tickColor: 'white'} ]} resizeMode={'cover'} /> )}
+          { props?.value && ( <Image source={require('./tick.png')} style={[{tintColor: props?.tickColor ? props.tickColor: 'white'} ]} resizeMode={'cover'} /> )}
         </View>
       </TouchableOpacity>
   );
